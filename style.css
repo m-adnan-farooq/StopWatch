@@ -1,0 +1,45 @@
+body{
+    background-color: #5CDB95;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    color: #05386B;
+    font-weight: 700;
+    font-size: 3em;
+}
+button{
+    padding: 15px;
+    margin: 30px 10px;
+    background-color: #05386B;
+    color: white;
+    font-size: larger;
+    border: 1px solid #8EE4AF;
+    width: 100px;
+    height: 100%;
+    border-radius: 10px;
+}
+button:focus{
+    background-color: #05386B;
+    border: none;
+}
+button:disabled{
+    background-color: #1b4168;
+}
+table{
+    margin: 10px auto;
+    background-color: #05386B;
+    color: white;
+    padding:20px;
+    border-radius: 50px;
+}
+table th, table td{
+    padding: 15px;
+    font-size: larger;
+    font-weight: 500;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
